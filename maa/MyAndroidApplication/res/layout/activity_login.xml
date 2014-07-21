@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.witaj1.Glowna" >
+
+    
+    <EditText
+        android:id="@+id/login_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/login_hint"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/password_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_zaloguj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/button_margin"
+            android:layout_weight="0.6"
+            android:background="@color/green"
+            android:text="@string/Button_login" />
+
+        <Button
+            android:id="@+id/button_deafult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/button_margin"
+            android:layout_weight="0.3"
+            android:background="@color/darker_green"
+            android:text="@string/Button_admin1" />
+    </LinearLayout>
+	
+
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="29dp"
+        android:text="Not visited yet"
+        android:textColor="#000000"
+        android:textSize="22sp" 
+        android:id="@+id/counterek"
+        />
+
+</LinearLayout>
