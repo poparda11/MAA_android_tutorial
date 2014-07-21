@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/command_line_moving_text_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_moving_text"
+        android:inputType="text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/button_margin"
+        android:orientation="horizontal"
+        android:padding="@dimen/button_margin" >
+
+        <Button
+            android:id="@+id/command_line_moving_text_OK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/button_margin"
+            android:layout_weight="0.2"
+            android:background="@color/green"
+            android:clickable="true"
+            android:text="@string/ready" />
+
+        <ToggleButton
+            android:id="@+id/command_line_moving_text_toggle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.8"
+            android:background="@color/darker_green"
+            android:gravity="center"
+            android:textOff="@string/on"
+            android:textOn="@string/off" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/command_line_moving_text_output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/moving_text_output" />
+
+
+
+
+
+
+</LinearLayout>

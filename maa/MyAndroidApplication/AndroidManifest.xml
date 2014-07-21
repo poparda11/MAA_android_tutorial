@@ -40,6 +40,19 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MovingText"
+            android:label="@string/title_activity_moving_text" >
+            <intent-filter>
+                <action android:name="com.myandroidapplication.MovingText" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Time"
+            android:label="@string/title_activity_time" >
+        </activity>
     </application>
 
 </manifest>
