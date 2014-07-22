@@ -8,8 +8,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class MainMenu extends ListActivity {
-	String classes[]={"Login","MovingText","Time","example3","example4","example5","example6"};
-	String names[]={"Login", "Command-line","Czas","No name 1","No name 2","No name 3","No name 4",};
+	String classes[]={"Login","MovingText","Time","Email","Photo","example5","example6"};
+	String names[]={"Login", "Command-line","Czas","E-mail","Aparat","No name 2","No name 3",};
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

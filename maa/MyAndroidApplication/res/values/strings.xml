@@ -28,5 +28,15 @@
     <string name="time">Ile czasu upłynęło od godziny:</string>
     <string name="start">START</string>
     <string name="stop">STOP</string>
+    <string name="title_activity_email">Email</string>
+    <string name="mail_email">Adres(y) e-mail</string>
+    <string name="mail_send">Wyślij</string>
+    <string name="mail_subject">Temat</string>
+    <string name="mail_msg1">Wstep</string>
+    <string name="mail_msg2">Rozwiniecie</string>
+    <string name="mail_msg3">Zakończenie</string>
+    <string name="mail_msg4">PS</string>
+    <string name="title_activity_photo">Photo</string>
+    <string name="photo_button">Ustaw jako tapete</string>
 
 </resources>
