@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">MAAf</string>
+    <string name="app_name">MAA</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="Button_login">Zaloguj</string>
@@ -24,5 +24,9 @@
     <string name="off">Typ: tekst</string>
     <string name="main_menu">Menu główne</string>
     <string name="title_activity_time">Time</string>
+    <string name="chronometer">Czasomierz</string>
+    <string name="time">Ile czasu upłynęło od godziny:</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
 
 </resources>
