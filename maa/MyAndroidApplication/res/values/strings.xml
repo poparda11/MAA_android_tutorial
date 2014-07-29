@@ -38,5 +38,15 @@
     <string name="mail_msg4">PS</string>
     <string name="title_activity_photo">Photo</string>
     <string name="photo_button">Ustaw jako tapete</string>
+    <string name="title_activity_send">Send</string>
+    <string name="title_activity_get">Get</string>
+    <string name="Send_start_act">Start Activity</string>
+    <string name="Send_start_act_for_res">Start Activity For Result</string>
+    <string name="menu_preferences_str">Ustawienia</string>
+    <string name="menu_about_us_str">O aplikacji</string>
+    <string name="title_activity_about_us">AboutUs</string>
+    <string name="about_content">R.P. based on tutorial. Application for learning.</string>
+    <string name="title_activity_prefs">Prefs</string>
+    <string name="menu_exit_str">Wyjscie</string>
 
 </resources>

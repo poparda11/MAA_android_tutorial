@@ -7,7 +7,8 @@
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="19" />
-    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
 
     <application
         android:allowBackup="true"
@@ -60,8 +61,35 @@
         </activity>
         <activity
             android:name=".Photo"
-            android:label="@string/title_activity_photo" 
-            android:screenOrientation="portrait">
+            android:label="@string/title_activity_photo"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Send"
+            android:label="@string/title_activity_send" >
+        </activity>
+        <activity
+            android:name=".Get"
+            android:label="@string/title_activity_get" >
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/title_activity_about_us"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="com.myandroidapplication.ABOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Prefs"
+            android:label="@string/title_activity_prefs" >
+            <intent-filter>
+                <action android:name="com.myandroidapplication.PREFS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
     </application>
 

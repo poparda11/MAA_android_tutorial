@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black" >
+
+    <EditText
+        android:id="@+id/et_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/start_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/et_send"
+        android:padding="@dimen/button_margin"
+        android:background="@color/green"
+        android:text="@string/Send_start_act" 
+        android:layout_margin="@dimen/button_margin"/>
+
+    <Button
+        android:id="@+id/start_activity_for_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/start_activity"
+        android:layout_below="@id/et_send"
+        android:layout_margin="@dimen/button_margin"
+        android:padding="@dimen/button_margin"
+        android:layout_toLeftOf="@id/start_activity"
+        android:background="@color/green"
+        android:text="@string/Send_start_act_for_res" />
+
+    <TextView
+        android:id="@+id/tvGot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_below="@id/start_activity"/>
+
+</RelativeLayout>
