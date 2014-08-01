@@ -48,5 +48,18 @@
     <string name="about_content">R.P. based on tutorial. Application for learning.</string>
     <string name="title_activity_prefs">Prefs</string>
     <string name="menu_exit_str">Wyjscie</string>
+    <string name="title_activity_sqlite_example">SQLiteExample</string>
+    <string name="name">Imię</string>
+    <string name="hotness_1_to_10">Ocena 1-10</string>
+    <string name="update_sqlite_database">Aktualizuj bazę SQLite</string>
+    <string name="view">Zobacz</string>
+    <string name="title_activity_sqlview">SQLView</string>
+    <string name="names">Imiona</string>
+    <string name="hotness">Atrakcyjność</string>
+    <string name="get_info">Info</string>
+    <string name="edit_entry">Edytuj wpis</string>
+    <string name="delete_entry">Usuń wpis</string>
+    <string name="give_row_id">Podaj ID</string>
+    <string name="title_activity_accelerate">Accelerate</string>
 
 </resources>

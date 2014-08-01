@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:paddingLeft="5dp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="@string/name"
+        android:textColor="@color/white" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/et_SQLName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/button_margin"
+        android:background="@color/white"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="22sp" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hotness_1_to_10"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/etSQLHotness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/button_margin"
+        android:background="@color/white"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/bSQLUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/button_margin"
+        android:background="@color/green"
+        android:padding="@dimen/button_margin"
+        android:text="@string/update_sqlite_database" />
+
+    <Button
+        android:id="@+id/bSQLOpenView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/button_margin"
+        android:background="@color/green"
+        android:padding="@dimen/button_margin"
+        android:text="@string/view" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/give_row_id"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/etSQLRowID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/button_margin"
+        android:background="@color/white"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/bSQLInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/button_margin"
+        android:background="@color/green"
+        android:padding="@dimen/button_margin"
+        android:text="@string/get_info" />
+
+    <Button
+        android:id="@+id/bSQLEditEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/button_margin"
+        android:background="@color/green"
+        android:padding="@dimen/button_margin"
+        android:text="@string/edit_entry" />
+
+    <Button
+        android:id="@+id/bSQLDeleteEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/button_margin"
+        android:background="@color/green"
+        android:padding="@dimen/button_margin"
+        android:text="@string/delete_entry" />
+
+</LinearLayout>

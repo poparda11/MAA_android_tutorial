@@ -7,20 +7,28 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class MainMenu extends ListActivity {
 
-	String classes[] = { "Login", "MovingText", "Time", "Email", "Photo" };
-	String names[] = { "Login", "Command-line", "Czas", "E-mail", "Aparat" };
+	String classes[] = { "Login", "MovingText", "Time", "Email", "Photo","SQLiteExample" };
+	String names[] = { "Login", "Command-line", "Czas", "E-mail", "Aparat","Baza SQLite" };
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+
+		// fullscreen
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
+		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+				WindowManager.LayoutParams.FLAG_FULLSCREEN);// setFlags(flag,mask);
+		// filling list
 		setListAdapter(new ArrayAdapter<String>(MainMenu.this,
 				android.R.layout.simple_list_item_1, names));
-		// setContentView(R.layout.activity_menu);
+
 	}
 
 	@Override
@@ -57,7 +65,7 @@ public class MainMenu extends ListActivity {
 			startActivity(i);
 			break;
 		case R.id.menu_preferences:
-			Intent j =new Intent("com.myandroidapplication.PREFS");
+			Intent j = new Intent("com.myandroidapplication.PREFS");
 			startActivity(j);
 			break;
 		case R.id.menu_exit:
